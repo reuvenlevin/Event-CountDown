@@ -1,0 +1,145 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  color: #333;
+}
+
+h1 {
+  text-align: center;
+  color: #2fb7fb;
+  margin: 20px 0;
+}
+
+form {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+
+input,
+textarea,
+select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+textarea {
+  height: 100px;
+}
+
+
+input[type="submit"] {
+  background-color: #e06706;
+  color: #fffbfc;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+input[type="submit"]:hover {
+  background-color: #2fb7fb;
+}
+
+footer {
+
+  padding: 20px;
+  color: #2fb7fb;
+  text-align: center;
+  background-color: var(--primary-color);
+  padding: 10px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.contact-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-section h3 {
+  margin-bottom: 10px;
+}
+
+.contact-section p {
+  margin: 5px 0;
+}
+
+
+.footer p {
+  margin: 5px 0;
+  text-align: center;
+}
+
+.myLogo img {
+  width: 100px;
+  height: 100px;
+  display: block;
+  margin: 0 auto;
+  border-radius: 50%;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+}
+
+nav {
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  display: block;
+  padding: 10px;
+  background-color: var(--primary-color);
+  color: #e06706;
+  text-decoration: none;
+
+
+}
+
+nav ul li a:hover {
+
+  background-color: #2fb7fb;
+}
+p {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #e06706;
+  border-color: #e06706;
+ 
+}
+h3{
+  color: #e06706;
+}

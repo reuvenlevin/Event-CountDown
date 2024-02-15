@@ -1,0 +1,16 @@
+<?php include 'header.php';
+?>
+  <h1>Welcome! Sign up below</h1>
+ 
+  <form action="/submit" method="post">
+    <p>Please enter the following information:</p>
+   
+    First Name: <input name="first_name" />
+    Last Name: <input name="last_name" />
+    Username: <input name="username" />
+    Password: <input type="password" name="password" />
+    Email: <input type="email" name="email" />
+
+    <input type="submit" value="Submit">
+
+   <?php include 'footer.php'; ?>
